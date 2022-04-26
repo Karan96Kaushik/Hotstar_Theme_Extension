@@ -1,5 +1,5 @@
 {
-  "name": "Hotstar Theme",
+  "name": "Buy with Shypmax",
   "description": "Make the current page red",
   "version": "2.0",
   "permissions": [
@@ -11,12 +11,12 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://*.hotstar.com/*", "http://*.hotstar.com/*", "https://hotstar.com/*"],
+      "matches": ["https://*.amazon.com/*", "http://*.amazon.com/*", "https://amazon.com/*"],
       "js": ["content.js"]
     }
   ],
   "browser_action": {
-    "default_title": "Make this page red"
+    "default_title": "Buy with shypmax"
   },
   "manifest_version": 2
 }
